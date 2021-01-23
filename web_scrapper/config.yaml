@@ -1,0 +1,26 @@
+news_sites:
+  eluniversal:
+    url: http://www.eluniversal.com.mx
+    queries:
+      homepage_article_links: 'article h2 a'
+      article_body: 'div .field-name-body'
+      article_title: '.Encabezado-Articulo h1'
+  elpais:
+    url: https://elpais.com
+    queries:
+      homepage_article_links: 'article .headline a'
+      article_body: '.a_w .article_body'
+      article_title: '#article_header h1'
+  emol:
+    url: https://www.emol.com/
+    queries:
+      homepage_article_links: 'div h3 a'
+      article_body: ''
+      article_title: ''
+  latercera:
+    url: https://www.latercera.com/
+    queries:
+      homepage_article_links: '.headline a'
+      article_body: ''
+      article_title: ''
+
