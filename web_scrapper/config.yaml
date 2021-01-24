@@ -15,12 +15,12 @@ news_sites:
     url: https://www.emol.com/
     queries:
       homepage_article_links: 'div h3 a'
-      article_body: ''
-      article_title: ''
+      article_body: '#texto_noticia #cuDetalle_cuTexto_textoNoticia'
+      article_title: '#cuDetalle_cuTitular_contNoticia #cuDetalle_cuTitular_tituloNoticia'
   latercera:
     url: https://www.latercera.com/
     queries:
       homepage_article_links: '.headline a'
-      article_body: ''
-      article_title: ''
+      article_body: '.abody-basic .single-content'
+      article_title: '.titulares div h1 div'
 
